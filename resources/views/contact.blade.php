@@ -112,10 +112,10 @@
                                 </div>
                                 <div>
                                     <select name="service" class="form-control">
-                                        <option disabled="disabled" selected="">Become a volunteer</option>
-                                        <option>Quick fundraising</option>
+                                        <option disabled="disabled" selected="">Reason</option>
+    
                                         <option>Start donating</option>
-                                        <option>Help Now</option>
+                                        <option>Become a volunteer</option>
                                     </select>
                                 </div>
                                 <div class="fullwidth">
