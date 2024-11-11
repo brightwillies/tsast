@@ -34,16 +34,16 @@
                 <div class="hero-inner">
                     <div class="container-fluid">
                         <div class="hero-content">
-                            <div data-swiper-parallax="300" class="slide-title-sub">
+                            <!-- <div data-swiper-parallax="300" class="slide-title-sub">
                                 <h6>Give them a chance.</h6>
-                            </div>
+                            </div> -->
                             <div data-swiper-parallax="300" class="slide-title">
                                 <h2>Give The Child The Gift
                                     Of Education.</h2>
                             </div>
 
                             <div class="hero-btn">
-                                <a href="about.html" class="theme-btn">About Us</a>
+                                <a href="/about-us" class="theme-btn">About Us</a>
 
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                                     </div>
                                 </div>
                                 <div class="image">
-                                    <img src="{{$singleEvent->image}}" alt="">
+                                    <img  width="400px"  height="307px" src="{{$singleEvent->image}}" alt="">
                                 </div>
                                 <div class="text">
                                     <h3><a href="/events/{{$singleEvent->id}}">{{$singleEvent->title}}</a></h3>

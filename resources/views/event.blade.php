@@ -72,7 +72,7 @@
 
                                     <div class="post">
                                         <div class="img-holder">
-                                            <img width="400px"  height="307px" src="{{$singleEvent->image}}" alt>
+                                            <img src="{{$singleEvent->image}}" alt>
                                         </div>
                                         <div class="details">
                                             <h4><a href="/events/{{$singleEvent->id}}">{{$singleEvent->title}}</a>
