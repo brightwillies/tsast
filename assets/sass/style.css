@@ -381,7 +381,7 @@ img {
     margin: 0;
     font-family: "Nunito", sans-serif;
     font-style: normal;
-    font-weight: 700; 
+    font-weight: 700;
     margin-top: 10px;
     font-size: 41px;
     line-height: 55px;
@@ -9478,7 +9478,7 @@ img {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    color: #779A65;
+color: #3e76be;
 }
 
 .volunteer-single .content ul {
