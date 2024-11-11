@@ -72,10 +72,10 @@
 
                                     <div class="post">
                                         <div class="img-holder">
-                                            <img src="{{$singleEvent->image}}" alt>
+                                            <img width="400px"  height="307px" src="{{$singleEvent->image}}" alt>
                                         </div>
                                         <div class="details">
-                                            <h4><a href="blog-single.html">{{$singleEvent->title}}</a>
+                                            <h4><a href="/events/{{$singleEvent->id}}">{{$singleEvent->title}}</a>
                                             </h4>
                                             <span class="date">{{$singleEvent->addname}} </span>
                                         </div>
