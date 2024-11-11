@@ -45,7 +45,7 @@
                     <ul>
                         <li><a  href="/">Home</a></li>
                         <li><a href="/about-us">About Us</a></li>
-                        <li><a href="/dvents">Events</a></li>
+                        <li><a href="/events">Events</a></li>
 
                     </ul>
                 </div>
@@ -58,7 +58,7 @@
                     <ul>
                     <li><a href="/gallery">Gallery</a></li>
                         <li><a href="/contact-us">Contact us</a></li>
-                        <li><a href="/contact-us">Donate to us</a></li>
+                        <li><a href="#">Donate to us</a></li>
 
                     </ul>
                 </div>
