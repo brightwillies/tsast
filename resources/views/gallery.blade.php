@@ -63,7 +63,7 @@
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="blog-single-card">
                                 <div class="image">
-                                    <img src="assets/images/blog/img-1.jpg" alt="">
+                                    <img src="{{$singleGallery->thumbnail}}" alt="">
                                     <div class="top-date">
                                     {{$singleGallery->addname}}
                                         <div class="shape">

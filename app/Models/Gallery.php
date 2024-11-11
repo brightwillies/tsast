@@ -51,9 +51,9 @@ class Gallery extends Model
     {
         $endDate = '';
 
-        if ($this->attributes['created_at']) {
+        if ($this->attributes['date']) {
 
-            $mydate = $this->attributes['created_at'];
+            $mydate = $this->attributes['date'];
             $endDate = date('F j, Y', strtotime($mydate));
         }
 
