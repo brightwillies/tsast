@@ -49,7 +49,7 @@
                                     <ul class="nav navbar-nav mb-2 mb-lg-0 small-nav">
                                     <li><a  class="{{(request()->is('/')) ? 'active' : '' }}"  class="active" href="/">Home</a></li>
                                     <li><a  class="{{(request()->is('about-us')) ? 'active' : '' }}"  href="/about-us">About Us</a></li>
-                                    <li><a  class="{{(request()->is('events')) ? 'active' : '' }}"  href="/events">Event</a></li>
+                                    <li><a  class="{{(request()->is('events')) ? 'active' : '' }}"  href="/events">Events</a></li>
                                     <li><a  class="{{(request()->is('gallery')) ? 'active' : '' }}"  href="/gallery">Gallery</a></li> 
                                     <li><a  class="{{(request()->is('contact-us')) ? 'active' : '' }}"  href="/contact-us">Contact</a></li>
                                     </ul>

@@ -9519,9 +9519,9 @@ img {
     color: #fff;
 }
 
-.volunteer-single:hover {
+/* .volunteer-single:hover {
     background: #F5F5F5;
-}
+} */
 
 .volunteer-single:hover .image::before {
     opacity: 1;

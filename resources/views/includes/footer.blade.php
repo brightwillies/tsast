@@ -58,6 +58,7 @@
                     <ul>
                     <li><a href="/gallery">Gallery</a></li>
                         <li><a href="/contact-us">Contact us</a></li>
+                        <li><a href="/contact-us">Donate to us</a></li>
 
                     </ul>
                 </div>
