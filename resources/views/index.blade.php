@@ -182,7 +182,7 @@
                                     <img src="/assets/images/team/issifu.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h2><a href="/">Muniratu Harunna</a></h2>
+                                    <h2><a href="/">Muniratu Issifu</a></h2>
                                     <span>Program Manager</span>
 
                                 </div>
