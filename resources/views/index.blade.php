@@ -146,7 +146,7 @@
 
         <!-- end of wpo-testimonial-section-s2-->
 
-    
+
 
         <!-- start of wpo-volunteer-section -->
         <section class="wpo-volunteer-section">
@@ -216,7 +216,7 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                                    <img src="/assets/images/team/audrey_akakiya.jpg" alt="">
+                                    <img  height="417px" width="417px" src="/assets/images/team/audrey_akakiya.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Audrey Akakiya </a></h2>
