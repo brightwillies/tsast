@@ -6,8 +6,9 @@
                         <div class="col col-md-7 col-sm-12 col-12">
                             <div class="contact-intro">
                                 <ul>
-                                <li><i class="fi flaticon-telephone-1"></i>024xxxxxxx</li>
-                                <li><i class="fi ti-location-pin"></i>Accra, Ghana</li>
+                                <li><i class="fi flaticon-telephone-1"></i>  +233 246 379 421
+                                </li>
+                                <li><i class="fi ti-location-pin"></i>Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region</li>
                                 </ul>
                             </div>
                         </div>
@@ -49,14 +50,14 @@
                                     <ul class="nav navbar-nav mb-2 mb-lg-0 small-nav">
                                     <li><a  class="{{(request()->is('/')) ? 'active' : '' }}"  class="active" href="/">Home</a></li>
                                     <li><a  class="{{(request()->is('about-us')) ? 'active' : '' }}"  href="/about-us">About Us</a></li>
-                                    <li><a  class="{{(request()->is('events')) ? 'active' : '' }}"  href="/events">Events</a></li>
-                                    <li><a  class="{{(request()->is('gallery')) ? 'active' : '' }}"  href="/gallery">Gallery</a></li> 
+                                    <!-- <li><a  class="{{(request()->is('events')) ? 'active' : '' }}"  href="/events">Events</a></li> -->
+                                    <li><a  class="{{(request()->is('gallery')) ? 'active' : '' }}"  href="/gallery">Gallery</a></li>
                                     <li><a  class="{{(request()->is('contact-us')) ? 'active' : '' }}"  href="/contact-us">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-3 col-2">
-                                <div class="header-right"> 
+                                <div class="header-right">
                                     <div class="close-form">
                                         <a class="theme-btn" href="/"><span class="mobile"><i class="fi fa fa-heart"></i></span><span class="text"> Donate
                                                 Now</span> </a>
@@ -66,6 +67,6 @@
                         </div>
                     </div>
                 </nav>
-               
+
             </div>
         </header>

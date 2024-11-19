@@ -146,54 +146,7 @@
 
         <!-- end of wpo-testimonial-section-s2-->
 
-        <!-- start of wpo-event-section -->
-        <section class="wpo-event-section section-padding">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6 col-md-12 col-12">
-                        <div class="wpo-section-title">
-                            <span>Let’s Help Them together!</span>
-                            <h2>Join Our Upcoming
-                                Events</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="event-wrap">
-                    <div class="row">
-                    @if($events->count() > 0)
-                    @foreach($events as $key =>$singleEvent)
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="event-card">
-                                <div class="top-date">
-                                    <span>{{$singleEvent->day}}</span>
-                                    {{$singleEvent->mon}}
-                                    <div class="shape">
-                                        <svg width="19" height="14" viewBox="0 0 19 14" fill="none">
-                                            <path d="M18.9999 14L0.5 14L18.9999 -3.6902e-05L18.9999 14Z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="image">
-                                    <img  width="400px"  height="307px" src="{{$singleEvent->image}}" alt="">
-                                </div>
-                                <div class="text">
-                                    <h3><a href="/events/{{$singleEvent->id}}">{{$singleEvent->title}}</a></h3>
-                                    <div class="event-info">
-                                       <span style="margin-right:25px;"><i class="ti-calendar"></i>{{$singleEvent->addname}}</span>
-                                        <span><i class="ti-location-pin"></i>{{$singleEvent->venue}}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        @endforeach
-                        @endif
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of wpo-event-section -->
+    
 
         <!-- start of wpo-volunteer-section -->
         <section class="wpo-volunteer-section">
@@ -211,13 +164,13 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
-                                <div class="image">                                 
-                                    <img src="/assets/images/woman_silt.png" alt="">
+                                <div class="image">
+                                    <img src="/assets/images/team/agnes_atanga.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Agnes Ayariga Atanga</a></h2>
                                     <span>Co-Founder & Executive Director</span>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -225,54 +178,54 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                               
-                                    <img src="assets/images/man_silt.jpg" alt="">
+
+                                    <img src="/assets/images/team/issifu.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Muniratu Harunna</a></h2>
                                     <span>Program Manager</span>
-                                    
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                                
-                                    <img src="assets/images/man_silt.jpg" alt="">
+
+                                    <img src="/assets/images/team/telo_peters.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Tolupe Peters</a></h2>
                                     <span>Board Member & Mentor</span>
-                                    
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                                <img src="assets/images/man_silt.jpg" alt="">
+                                <img src="/assets/images/team/dr_sarpong.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Dr. Kofi </a></h2>
                                     <span>Research and Development Lead</span>
-                                    
+
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                                    <img src="assets/images/woman_silt.png" alt="">
+                                    <img src="/assets/images/team/audrey_akakiya.jpg" alt="">
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Audrey Akakiya </a></h2>
                                     <span>Marketing and Communications Specialist</span>
-                                    
+
                                 </div>
                             </div>
                         </div>
-                   
+
                     </div>
                 </div>
             </div>

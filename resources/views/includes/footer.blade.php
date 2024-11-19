@@ -45,7 +45,7 @@
                     <ul>
                         <li><a  href="/">Home</a></li>
                         <li><a href="/about-us">About Us</a></li>
-                        <li><a href="/events">Events</a></li>
+                        <!-- <li><a href="/events">Events</a></li> -->
 
                     </ul>
                 </div>
@@ -70,8 +70,8 @@
                     </div>
                          <ul class="info">
                         <li><i class="flaticon-email"></i>info@theacademicsuccessteam.org</li>
-                        <li><i class="flaticon-telephone"></i> 024xxxxxxx</li>
-                        <li><i class="flaticon-location"></i> Accra</li>
+                        <li><i class="flaticon-telephone"></i>+233 246 379 421                        </li>
+                        <li><i class="flaticon-location"></i> Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region</li>
                     </ul>
 
                 </div>
