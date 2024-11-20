@@ -58,7 +58,8 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Address</h2>
-                                            <p>Accra</p>
+                                            <p>Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region 
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,8 +72,8 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Email Us</h2>
-                                            <p>theacademicsuccessteam.org</p>
-                                            <p>theacademicsuccessteam.org</p>
+                                            <p>info@theacademicsuccessteam.org </p>
+                                            <!-- <p>theacademicsuccessteam.org</p> -->
                                         </div>
                                     </div>
                                 </div>
@@ -85,8 +86,8 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Call Now</h2>
-                                            <p>024xxxxxxx</p>
-                                            <p>024xxxxxxx</p>
+                                            <p>+233 246 379 421 </p>
+                                            <!-- <p>024xxxxxxx</p> -->
                                         </div>
                                     </div>
                                 </div>
