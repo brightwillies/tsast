@@ -183,7 +183,7 @@
                                 </div>
                                 <div class="content">
                                     <h2><a href="/">Muniratu Issifu</a></h2>
-                                    <span>Program Manager</span>
+                                    <span>Board Member</span>
 
                                 </div>
                             </div>
