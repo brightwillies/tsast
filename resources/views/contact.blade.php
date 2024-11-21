@@ -58,7 +58,7 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Address</h2>
-                                            <p>Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region 
+                                            <p>Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region
                                             </p>
                                         </div>
                                     </div>
@@ -114,7 +114,7 @@
                                 <div>
                                     <select name="service" class="form-control">
                                         <option disabled="disabled" selected="">Reason</option>
-    
+
                                         <option>Start donating</option>
                                         <option>Become a volunteer</option>
                                     </select>

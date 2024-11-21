@@ -65,7 +65,7 @@
                                 <div class="image">
                                     <img  width="370px" height="280px"  src="{{$singleGallery->thumbnail}}" alt="">
                                     <div class="top-date">
-                                    {{$singleGallery->addname}}
+                                    <!-- {{$singleGallery->addname}} -->
                                         <div class="shape">
                                             <svg width="8" height="9" viewBox="0 0 8 9" fill="none">
                                                 <path
@@ -84,7 +84,7 @@
                         </div>
                          @endforeach
                         @endif
-                       
+
                     </div>
                 </div>
             </div>
@@ -106,7 +106,5 @@
     @include('includes.foot')
 </body>
 
-
-<!-- Mirrored from wpocean.com/html/tf/charius/testimonial.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Nov 2024 02:00:18 GMT -->
 
 </html>
