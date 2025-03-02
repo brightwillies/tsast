@@ -106,10 +106,10 @@
                         <div class="col-lg-6 col-md-12 col-12">
                             <div class="wpo-about-text">
                             <div class="wpo-section-title">
-                                    <span>Welcome to TAST</span>
+                                    <span>Welcome to TAS</span>
                                     <h3  class="subHeaded">Transforming lives through Education.</h3>
                                 </div>
-                                <p>Welcome to The Academic Success Team (TAST)! Founded to empower students, we provide mentorship, resources, and skill-building opportunities to help young people, especially underrepresented groups, succeed academically and professionally. Join us in creating a future where every student has the tools and support needed to reach their full potential</p>
+                                <p>Welcome to The Academic Success Foundation (TAS)! Founded to empower students, we provide mentorship, resources, and skill-building opportunities to help young people, especially underrepresented groups, succeed academically and professionally. Join us in creating a future where every student has the tools and support needed to reach their full potential</p>
 
 
                                 <!-- <div class="about-info-wrap"> -->
@@ -179,11 +179,11 @@
                             <div class="volunteer-single">
                                 <div class="image">
 
-                                    <img src="/assets/images/team/issifu.jpg" alt="">
+                                    <img src="/assets/images/team/cecilia_ayileoh.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h2><a href="/">Muniratu Issifu</a></h2>
-                                    <span>Board Member</span>
+                                    <h2><a href="/">Cecilia Ayileoh</a></h2>
+                                    <span>Board Member, The Academic Success Foundation (TAS)</span>
 
                                 </div>
                             </div>
@@ -192,11 +192,11 @@
                             <div class="volunteer-single">
                                 <div class="image">
 
-                                    <img src="/assets/images/team/telo_peters.jpg" alt="">
+                                    <img src="/assets/images/team/Ruth.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h2><a href="/">Tolupe Peters</a></h2>
-                                    <span>Board Member & Mentor</span>
+                                    <h2><a href="/">Ruth Akyerem Quansah</a></h2>
+                                    <span>Board Member, The Academic Success Foundation (TAS)</span>
 
                                 </div>
                             </div>
@@ -204,11 +204,11 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                                <img src="/assets/images/team/dr_sarpong.jpg" alt="">
+                                <img src="/assets/images/team/Gerald.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h2><a href="/">Dr. Kofi </a></h2>
-                                    <span>Research and Development Lead</span>
+                                    <h2><a href="/">Gerald </a></h2>
+                                    <span>Gerald Board Member, The Academic Success Foundation (TAS) </span>
 
                                 </div>
                             </div>
@@ -216,11 +216,11 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div class="volunteer-single">
                                 <div class="image">
-                                    <img  height="417px" width="417px" src="/assets/images/team/audrey_akakiya.jpg" alt="">
+                                    <img  height="417px" width="417px" src="/assets/images/team/audree.jpg" alt="">
                                 </div>
                                 <div class="content">
-                                    <h2><a href="/">Audrey Akakiya </a></h2>
-                                    <span>Marketing and Communications Specialist</span>
+                                    <h2>Audrey Akakiya </h2>
+                                    <span>Communications and Partnerships Lead, The Academic Success Foundation (TAS)</span>
 
                                 </div>
                             </div>

@@ -63,7 +63,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div class="col col-xl-5 col-lg-6 col-md-6 col-12">
                                     <div class="office-info-item">
                                         <div class="office-info-icon">
                                             <div class="icon">
@@ -72,12 +72,12 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Email Us</h2>
-                                            <p>info@theacademicsuccessteam.org </p>
+                                            <p>info@theacademicsuccessfoundation.org</p>
                                             <!-- <p>theacademicsuccessteam.org</p> -->
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
                                     <div class="office-info-item">
                                         <div class="office-info-icon">
                                             <div class="icon">

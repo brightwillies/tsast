@@ -69,7 +69,7 @@
                         <h3>Contact Us</h3>
                     </div>
                          <ul class="info">
-                        <li><i class="flaticon-email"></i>info@theacademicsuccessteam.org</li>
+                        <li><i class="flaticon-email"></i>info@theacademicsuccessfoundation.org</li>
                         <li><i class="flaticon-telephone"></i>+233 246 379 421                        </li>
                         <li><i class="flaticon-location"></i> Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region</li>
                     </ul>

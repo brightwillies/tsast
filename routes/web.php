@@ -24,6 +24,7 @@ Route::get('/donate-now', function () {
 Route::get('/', [FrontendController::class, 'home'])->name('home');
 Route::get('/about-us', [FrontendController::class, 'about'])->name('about-us');
 Route::get('/events', [FrontendController::class, 'events'])->name('team');
+Route::get('/programs', [FrontendController::class, 'programs'])->name('programs');
 
 
 

@@ -41,26 +41,27 @@
                             </div>
                             <div class="col-lg-3 col-md-4 col-6">
                                 <div class="navbar-header">
-                                    <a class="navbar-brand" href="/"><img id="headerLogo" height="100px" src="/assets/images/logoo.jpg" alt="logo"></a>
+                                    <a class="navbar-brand" href="/"><img id="headerLogo"  style="margin-bottom: 15px; margin-top: 15px;"  height="130px" src="/assets/images/logoo.jpg" alt="logo"></a>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-1 col-1">
+                            <div class="col-lg-7 col-md-1 col-1">
                                 <div id="navbar" class="collapse navbar-collapse navigation-holder">
                                     <button class="menu-close"><i class="ti-close"></i></button>
                                     <ul class="nav navbar-nav mb-2 mb-lg-0 small-nav">
                                     <li><a  class="{{(request()->is('/')) ? 'active' : '' }}"  class="active" href="/">Home</a></li>
                                     <li><a  class="{{(request()->is('about-us')) ? 'active' : '' }}"  href="/about-us">About Us</a></li>
-                                    <!-- <li><a  class="{{(request()->is('events')) ? 'active' : '' }}"  href="/events">Events</a></li> -->
+                                     <!-- <li><a  class="{{(request()->is('blog')) ? 'active' : '' }}"  href="/blog">Blog</a></li>  -->
                                     <li><a  class="{{(request()->is('gallery')) ? 'active' : '' }}"  href="/gallery">Gallery</a></li>
+                                    <li><a  class="{{(request()->is('programs')) ? 'active' : '' }}"  href="/programs">Our Programs</a></li>
                                     <li><a  class="{{(request()->is('contact-us')) ? 'active' : '' }}"  href="/contact-us">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-2">
+                            <div class="col-lg-2 col-md-3 col-2">
                                 <div class="header-right">
                                     <div class="close-form">
                                         <a class="theme-btn" href="/"><span class="mobile"><i class="fi fa fa-heart"></i></span><span class="text"> Donate
-                                                Now</span> </a>
+                                                </span> </a>
                                     </div>
                                 </div>
                             </div>
