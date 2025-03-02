@@ -18,8 +18,7 @@
     <link href="/assets/css/jquery.fancybox.css" rel="stylesheet">
     <link href="/assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="/assets/sass/style.css" rel="stylesheet">
-
-        <title>{{$title ?? 'No title'}} - The Academic Success Team</title>
+        <title>{{$title ?? 'No title'}} - The Academic Success Foundation</title>
 
 
 
