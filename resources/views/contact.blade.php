@@ -58,7 +58,8 @@
                                         </div>
                                         <div class="office-info-text">
                                             <h2>Address</h2>
-                                            <p>Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region
+                                            <p> CL141, Knife St., Amasaman - Accra, GW - 0016-9381
+
                                             </p>
                                         </div>
                                     </div>

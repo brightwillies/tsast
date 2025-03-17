@@ -71,7 +71,8 @@
                          <ul class="info">
                         <li><i class="flaticon-email"></i>info@theacademicsuccessfoundation.org</li>
                         <li><i class="flaticon-telephone"></i>+233 246 379 421                        </li>
-                        <li><i class="flaticon-location"></i> Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region</li>
+                        <li><i class="flaticon-location"></i> CL141, Knife St., Amasaman - Accra,  GW - 0016-9381
+</li>
                     </ul>
 
                 </div>

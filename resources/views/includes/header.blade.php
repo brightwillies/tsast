@@ -6,9 +6,10 @@
                         <div class="col col-md-7 col-sm-12 col-12">
                             <div class="contact-intro">
                                 <ul>
-                                <li><i class="fi flaticon-telephone-1"></i>  +233 246 379 421
+                                <li><i class="fi flaticon-telephone-1"></i>  +233 246 379 421  
                                 </li>
-                                <li><i class="fi ti-location-pin"></i>Atimbilla House Adjacent Extee Hotel Bolgatanga Upper East region</li>
+                                <li><i class="fi ti-location-pin"></i>CL141, Knife St., Amasaman - Accra,  GW - 0016-9381
+</li>
                                 </ul>
                             </div>
                         </div>
