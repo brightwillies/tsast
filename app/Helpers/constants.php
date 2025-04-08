@@ -29,6 +29,7 @@ define('ST_WEB_IMAGE_SLIDER_FOLDER', 'assets/homesliders/web');
 define('ST_IMAGES', 'assets/sysimages');
 define('ST_GALLERY', 'assets/gallery');
 define ('ST_EVENTS', 'assets/events');
+define ('ST_NEWS', 'assets/blogs');
 //upload prefix
 define('ST_WEB', '-web');
 define('ST_MOBILE', '-mobile');

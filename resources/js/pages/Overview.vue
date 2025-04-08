@@ -17,7 +17,7 @@
             <div class="page-title-right">
               <ol class="breadcrumb m-0">
                 <li class="breadcrumb-item active">
-                  Welcome to Thoracic Dashboard
+                  Welcome to TAS Dashboard
                 </li>
               </ol>
             </div>
@@ -26,110 +26,7 @@
       </div>
       <!-- end page title -->
 
-      <div class="row">
-        <div class="col-xl-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="media">
-                <div class="avatar-sm font-size-20 mr-3">
-                  <span
-                    class="avatar-title bg-soft-primary text-primary rounded"
-                  >
-                    <i class="mdi mdi-tag-plus-outline"></i>
-                  </span>
-                </div>
-                <div class="media-body">
-                  <div class="font-size-16 mt-2">Total Complains</div>
-                </div>
-              </div>
-              <h4 class="mt-4">{{ complains }}</h4>
-              <div class="row">
-                <div class="col-7"></div>
-                <div class="col-5 align-self-center">
-                  <div class="progress progress-sm">
-                    <div
-                      class="progress-bar bg-primary"
-                      role="progressbar"
-                      style="width: 62%"
-                      aria-valuenow="62"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="media">
-                <div class="avatar-sm font-size-20 mr-3">
-                  <span
-                    class="avatar-title bg-soft-primary text-primary rounded"
-                  >
-                    <i class="mdi mdi-account-multiple-outline"></i>
-                  </span>
-                </div>
-                <div class="media-body">
-                  <div class="font-size-16 mt-2">Total Executives</div>
-                </div>
-              </div>
-              <h4 class="mt-4">{{ executives }}</h4>
-              <div class="row">
-                <div class="col-7"></div>
-                <div class="col-5 align-self-center">
-                  <div class="progress progress-sm">
-                    <div
-                      class="progress-bar bg-success"
-                      role="progressbar"
-                      style="width: 62%"
-                      aria-valuenow="62"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4">
-          <div class="card">
-            <div class="card-body">
-              <div class="media">
-                <div class="avatar-sm font-size-20 mr-3">
-                  <span
-                    class="avatar-title bg-soft-primary text-primary rounded"
-                  >
-                    <i class="mdi mdi-account-multiple-outline"></i>
-                  </span>
-                </div>
-                <div class="media-body">
-                  <div class="font-size-16 mt-2">Total News</div>
-                </div>
-              </div>
-              <h4 class="mt-4">{{ news }}</h4>
-              <div class="row">
-                <div class="col-7"></div>
-                <div class="col-5 align-self-center">
-                  <div class="progress progress-sm">
-                    <div
-                      class="progress-bar bg-success"
-                      role="progressbar"
-                      style="width: 62%"
-                      aria-valuenow="62"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
       <!-- end row -->
 
       <div class="row">

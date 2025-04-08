@@ -1,11 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\Admin\NewsController;
 use App\Http\Controllers\Api\Admin\EventController;
 use App\Http\Controllers\Api\Admin\ImageController;
+use App\Http\Controllers\Api\Admin\GalleryController;
 use App\Http\Controllers\Api\Admin\OverviewController;
 use App\Http\Controllers\Api\Admin\AdminstratorsController;
-use App\Http\Controllers\Api\Admin\GalleryController;
 use App\Http\Controllers\Api\Admin\AuthController as AdminAuthController;
 
 Route::get('/login', function () {
@@ -37,7 +38,7 @@ Route::group(['prefix' => 'v1'], function () {
 
         Route::get('stats', [OverviewController::class, 'stats']);
 
-        Route::middleware("auth:admin_api")->group(function () {
+        // Route::middleware("auth:admin_api")->group(function () {
 
             Route::group(['prefix' => 'usermanagement'], function () {
                 Route::group(['prefix' => 'admin'], function () {
@@ -70,8 +71,17 @@ Route::group(['prefix' => 'v1'], function () {
                 Route::delete('/{id}', [EventController::class, 'destroy']);
             });
 
+            Route::group(['prefix' => 'blog'], function () {
+                Route::get('/', [NewsController::class, 'index']);
+                Route::post('/', [NewsController::class, 'store']);
+                Route::post('/{id}', [NewsController::class, 'update']);
+                // Route::get('/event-details/{id}', [NewsController::class, 'Details']);
+                Route::get('/{id}', [NewsController::class, 'show']);
+                Route::delete('/{id}', [NewsController::class, 'destroy']);
+            }
+            );
 
             Route::post('/uploadimage', [ImageController::class, 'store']);
         });
-    });
+    // });
 });

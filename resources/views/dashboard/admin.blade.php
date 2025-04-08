@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Dashboard | Landsar Facilities Management</title>
+    <title>Dashboard | TAS Foundation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Pcgebenezer.com" name="description" />
     <meta content="" name="author" />

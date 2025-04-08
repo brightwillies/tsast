@@ -35,7 +35,7 @@ import VueQuillEditor from 'vue-quill-editor'
 import 'quill/dist/quill.core.css' // import styles
 import 'quill/dist/quill.snow.css' // for snow theme
 import 'quill/dist/quill.bubble.css' // for bubble theme
-Vue.use(VueQuillEditor, /* { default global options } */ );
+Vue.use(VueQuillEditor, /* { default global options } */);
 /**image viewer */
 
 import Viewer from "v-viewer";
@@ -64,6 +64,8 @@ import Notfound from "./pages/Notfound.vue";
 import Admin from "./pages/Admin.vue";
 import newgallery from "./pages/newgallery.vue";
 import Sidebar from "./pages/Sidebar.vue";
+import Blogs from "./pages/Blogs.vue";
+import Blog from "./pages/Blog.vue";
 Vue.component('sidebar', Sidebar);
 Vue.prototype.$churchusername = localStorage.getItem('thoracicadminusername');
 import Embed from 'v-video-embed'
@@ -76,56 +78,75 @@ const router = new VueRouter({
 
     mode: "history",
     routes: [{
-            path: "/admin-login",
-            name: "login",
-            component: Login
-        },
-        {
-            path: "/admin-forgot-password",
-            name: "ForgotPass",
-            component: ForgotPass
-        },
-        {
-            path: "/dashboard",
-            name: "dashboard",
-            component: Dashboard,
-            meta: { requiresAuth: true },
-            children: [
+        path: "/admin-login",
+        name: "login",
+        component: Login
+    },
+    {
+        path: "/admin-forgot-password",
+        name: "ForgotPass",
+        component: ForgotPass
+    },
+    {
+        path: "/dashboard",
+        name: "dashboard",
+        component: Dashboard,
+        meta: { requiresAuth: true },
+        children: [
 
-                {
-                    path: "",
-                    name: "Overview",
-                    component: Overview
-                },
-                {
-                    path: "administrators",
-                    name: "Admin",
-                    component: Admin
-                },
-                {
-                    path: "gallery",
-                    name: "gallery",
-                    component: Allgallery
-                },
-                {
-                    path: "new-gallery",
-                    name: "newGallery",
-                    component: newgallery
-                },
+            {
+                path: "",
+                name: "Overview",
+                component: Overview
+            },
+            {
+                path: "administrators",
+                name: "Admin",
+                component: Admin
+            },
+            {
+                path: "gallery",
+                name: "gallery",
+                component: Allgallery
+            },
 
-                {
-                    path: "gallery/:id",
-                    name: "viewGallery",
-                    component: newgallery
-                },
-                {
-                    path: "events",
-                    name: "events",
-                    component: Events
-                }
+            {
+                path: "new-gallery",
+                name: "newGallery",
+                component: newgallery
+            },
 
-            ]
-        }
+            {
+                path: "gallery/:id",
+                name: "viewGallery",
+                component: newgallery
+            },
+            {
+                path: "blogs",
+                name: "blogs",
+                component: Blogs
+            },
+
+            {
+                path: "new-blog",
+                name: "newBlog",
+                component: Blog
+            },
+
+            {
+                path: "blog/:id",
+                name: "viewBlog",
+                component: Blog
+            },
+
+            {
+                path: "events",
+                name: "events",
+                component: Events
+            }
+
+        ]
+    }
     ]
 });
 

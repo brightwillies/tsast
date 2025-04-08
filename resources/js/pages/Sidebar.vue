@@ -38,6 +38,8 @@
                 </li>
                 <li>
                   <a  class="waves-effect"  href="/dashboard/events">   <i class="mdi mdi-flip-horizontal"></i>events</a>
+                  <a  class="waves-effect"  href="/dashboard/blogs">   <i class="mdi mdi-flip-horizontal"></i>Blogs</a>
+                  <a  class="waves-effect"  href="/dashboard/new-blog">   <i class="mdi mdi-flip-horizontal"></i>New Blog</a>
                 </li>
           </ul>
         </div>
