@@ -13,8 +13,8 @@ class News extends Model
 
     public function getDayAttribute()
     {$endDate = '';
-        if ($this->attributes['created_at']) {
-            $mydate = $this->attributes['created_at'];
+        if ($this->attributes['date']) {
+            $mydate = $this->attributes['date'];
             $endDate = date('j', strtotime($mydate));
         }
 
@@ -23,8 +23,8 @@ class News extends Model
     public function getMonAttribute()
     {$endDate = '';
 
-        if ($this->attributes['created_at']) {
-            $mydate = $this->attributes['created_at'];
+        if ($this->attributes['date']) {
+            $mydate = $this->attributes['date'];
             $endDate = date('M', strtotime($mydate));
         }
 
@@ -33,9 +33,9 @@ class News extends Model
     public function getYearAttribute()
     {$endDate = '';
 
-        if ($this->attributes['created_at']) {
+        if ($this->attributes['date']) {
 
-            $mydate = $this->attributes['created_at'];
+            $mydate = $this->attributes['date'];
             $endDate = date('Y', strtotime($mydate));
             // $endDate = date('l, F jS, Y', strtotime($mydate));
         }
