@@ -42,7 +42,7 @@ class FrontendController extends Controller
         // return view('index');
         // $events = News::take('3')->get();
         $title = 'Blogs';
-        $activeBlogs = News::all();
+        $activeBlogs = News::select('*')->orderBy('date', 'DESC')->get();
         // $pastEvents = Blog::latest()->where('status', 0)->get();
         return view('blogs', compact('title', 'activeBlogs'));
     }
