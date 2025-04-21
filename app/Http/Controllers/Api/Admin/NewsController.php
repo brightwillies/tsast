@@ -26,7 +26,7 @@ class NewsController extends Controller
         // try {
         $rules = [
             'title' => 'required|unique:news,title',
-            // 'date' => 'required',
+            'date' => 'required',
             // 'venue' => 'required',
         ];
         $validator = Validator::make($request->all(), $rules);
@@ -37,7 +37,8 @@ class NewsController extends Controller
 
         $newRecord = new News();
         $newRecord->title = $request->title;
-        $newRecord->date = gmdate('y-m-d');
+        // $newRecord->date = gmdate('y-m-d');
+        $newRecord->date = $request->date;
         $newRecord->summary = $request->summary;
         $newRecord->introduction = $request->introduction;
         $webImage = $request->file('featured_image');
@@ -89,7 +90,7 @@ class NewsController extends Controller
                 return $this->validationResponse($errors);
             }
             $newRecord->title = $request->title;
-            // $newRecord->date = $request->date;
+             $newRecord->date = $request->date;
             $newRecord->summary = $request->summary;
             $newRecord->introduction = $request->introduction;
             $webImage = $request->file('featured_image');
