@@ -44,7 +44,7 @@
         </section>
         <!-- end page-title -->
 
-      
+
 
 
 
@@ -91,8 +91,12 @@
                                 <div class="content">
                                     <h2><a href="">3. The Academic Success ELEVATE Program </a></h2>
                                     <p style="margin-bottom:35px;">in partnership with Africa Career Networks and the Mastercard Foundation, ELEVATE is a career acceleration initiative that connects young professionals with industry leaders, real-world challenges, and employment opportunities. The program offers mentorship, leadership development, industry immersion, and innovation challenges, ensuring young professionals are job-ready and equipped to contribute meaningfully to Africa’s workforce </p>
+
+                                    <h2 style="font-size:20px;"> <a href="">4. EcoScan AI: Research for Empowered Learning </a> </h2>
+                                    <p>Predictive Intelligence for Environmental Law Enforcement is an innovative, community-driven initiative that combines artificial intelligence with real-time reporting to combat environmental crimes such as illegal mining, wildlife trafficking, and deforestation. Using a multilingual WhatsApp chatbot, citizens can report incidents through text, images, voice notes, and videos, which are then analyzed by an AI-powered Data Hub using satellite imagery and machine learning to identify crime hotspots. Co-created with local youth and traditional leaders, the system generates actionable intelligence shared with law enforcement and environmental agencies to support timely interventions. Piloted successfully in northern Ghana, EcoScan AI is now poised for national and regional scale-up, offering a scalable model for data-driven, participatory environmental protection.</p>
+<!--
                                     <h2 style="font-size:20px;"> <a href="">4. InsightEd: Research for Empowered Learning </a> </h2>
-                                    <p>This initiative conducts research on education, career guidance, mentorship, STEM, and mental health, providing evidence-based insights that inform program development and advocacy. By identifying trends, challenges, and opportunities, InsightEd contributes to broader educational discourse, ensuring data-driven approaches to student success and well-being.</p>
+                                    <p>This initiative conducts research on education, career guidance, mentorship, STEM, and mental health, providing evidence-based insights that inform program development and advocacy. By identifying trends, challenges, and opportunities, InsightEd contributes to broader educational discourse, ensuring data-driven approaches to student success and well-being.</p> -->
 
                                 </div>
                             </div>
@@ -100,7 +104,7 @@
                         <div class="col col-lg-5 col-md-12 col-12">
                             <div class="causes-item">
                                 <div class="image">
-                                   
+
                                     <img src="assets/images/bolga_2.jpg" alt="">
                                 </div>
 
@@ -112,7 +116,7 @@
             </div>
         </section>
 
-   
+
 
         @include('includes.footer')
 

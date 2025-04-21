@@ -63,11 +63,11 @@
                             </div>
                         </div>
 
-                        <!-- <div class="form-group">
+                        <div class="form-group">
                             <label for="name">Date</label>
                             <input required v-model="form.date" type="date" id="name" name="group-a[0][untyped-input]"
                               class="form-control" />
-                        </div> -->
+                        </div>
 
 
                         <div class="form-group">

@@ -60782,6 +60782,37 @@ var render = function () {
                 ]),
               ]),
               _vm._v(" "),
+              _c("div", { staticClass: "form-group" }, [
+                _c("label", { attrs: { for: "name" } }, [_vm._v("Date")]),
+                _vm._v(" "),
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.form.date,
+                      expression: "form.date",
+                    },
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    required: "",
+                    type: "date",
+                    id: "name",
+                    name: "group-a[0][untyped-input]",
+                  },
+                  domProps: { value: _vm.form.date },
+                  on: {
+                    input: function ($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.form, "date", $event.target.value)
+                    },
+                  },
+                }),
+              ]),
+              _vm._v(" "),
               _c(
                 "div",
                 { staticClass: "form-group" },

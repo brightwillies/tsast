@@ -57,14 +57,51 @@
                                             </div>
                                         </div>
                                         <div class="office-info-text">
-                                            <h2>Address</h2>
-                                            <p> CL141, Knife St., Amasaman - Accra, GW - 0016-9381
+                                            <h2>Office 1</h2>
 
-                                            </p>
+                                            <p>Bolgatanga, Upper East Region, Ghana
+                                            Plot 3, Zamse Junction, Bolgatanga – Ghana</p>
+
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xl-5 col-lg-6 col-md-6 col-12">
+                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
+                                    <div class="office-info-item">
+                                        <div class="office-info-icon">
+                                            <div class="icon">
+                                                <i class="fi flaticon-location"></i>
+                                            </div>
+                                        </div>
+                                        <div class="office-info-text">
+                                            <h2>Office 2</h2>
+                                            <p> CL141, Knife St., Amasaman - Accra, GW - 0016-9381
+
+                                            </p>
+<br>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
+                                    <div class="office-info-item">
+                                        <div class="office-info-icon">
+                                            <div class="icon">
+                                                <i class="fi flaticon-phone-call"></i>
+                                            </div>
+                                        </div>
+                                        <div class="office-info-text">
+                                            <h2>Call Now</h2>
+                                            <p>+233 246 379 421 </p>
+                                            <!-- <p>024xxxxxxx</p> -->
+                                            <br>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
                                     <div class="office-info-item">
                                         <div class="office-info-icon">
                                             <div class="icon">
@@ -78,20 +115,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
-                                    <div class="office-info-item">
-                                        <div class="office-info-icon">
-                                            <div class="icon">
-                                                <i class="fi flaticon-phone-call"></i>
-                                            </div>
-                                        </div>
-                                        <div class="office-info-text">
-                                            <h2>Call Now</h2>
-                                            <p>+233 246 379 421 </p>
-                                            <!-- <p>024xxxxxxx</p> -->
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                         <div class="wpo-contact-title">
