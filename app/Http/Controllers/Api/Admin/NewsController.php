@@ -16,7 +16,7 @@ class NewsController extends Controller
 
     public function index()
     {
-        $getRecords = News::select('*')->orderBy('id', 'DESC')->get();
+        $getRecords = News::select('*')->orderBy('date', 'DESC')->get();
         return $this->successResponse('', $getRecords);
     }
 
